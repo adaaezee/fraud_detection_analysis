@@ -31,7 +31,7 @@ To identify the most informative attributes, I used:
 - **Search Method:** `Ranker`  
 - **Outcome:** Produced a ranked list of features based on their correlation with the fraud class.  
 
-📎 *Screenshot included in the `/screenshots` folder.*
+*Screenshot included in the `/screenshots` folder.*
 
 ---
 
@@ -73,4 +73,33 @@ I applied two supervised ML algorithms:
 
 ---
 
-## Repository Structure
+## Tools Used
+
+- **WEKA** (GUI-based machine learning toolkit)  
+- Correlation-based feature selection  
+- Logistic Regression  
+- Random Forest  
+- Evaluation: Precision, Recall, F1-Score, ROC AUC  
+
+---
+
+## Summary
+
+This project strengthened my understanding of:
+
+- model evaluation on imbalanced datasets  
+- the importance of precision/recall for fraud detection  
+- feature selection and attribute ranking  
+- comparative model performance  
+- interpreting WEKA outputs for real-world decision-making  
+
+---
+
+## Dataset Access  
+Dataset must be downloaded from Kaggle due to licensing:  
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
+---
+
+If you have any questions about this project or would like to see the WEKA workflow, feel free to explore the screenshots folder.
+
